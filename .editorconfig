@@ -1,0 +1,23 @@
+# stop .editorconfig files search on current file.
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+quote_type = double
+curly_bracket_next_line = true
+spaces_around_operators = hybrid
+indent_brace_style = K&R
+
+[*.{ts,tsx,js}]
+indent_style = space
+indent_size = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
